@@ -1,14 +1,13 @@
-package ru.javavision.servlets.filter;
+package my.app.servlets.filter;
 
-import ru.javavision.dao.UserDAO;
-import ru.javavision.model.User;
+import my.app.dao.UserDAO;
+import my.app.model.User;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 

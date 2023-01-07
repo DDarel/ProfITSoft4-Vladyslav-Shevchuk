@@ -1,6 +1,6 @@
-package ru.javavision.dao;
+package my.app.dao;
 
-import ru.javavision.model.User;
+import my.app.model.User;
 
 import java.util.ArrayList;
 import java.util.List;

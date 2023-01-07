@@ -1,8 +1,8 @@
-package ru.javavision.servlets;
+package my.app.servlets;
 
 
-import ru.javavision.dao.UserDAO;
-import ru.javavision.model.User;
+import my.app.dao.UserDAO;
+import my.app.model.User;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
@@ -10,7 +10,7 @@ import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 import java.util.concurrent.atomic.AtomicReference;
 
-import static ru.javavision.model.User.ROLE.USER;
+import static my.app.model.User.ROLE.USER;
 
 @WebListener
 public class ContextListener implements ServletContextListener {

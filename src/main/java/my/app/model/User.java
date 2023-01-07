@@ -1,4 +1,4 @@
-package ru.javavision.model;
+package my.app.model;
 
 public class User {
 

@@ -1,4 +1,4 @@
-package ru.javavision.servlets.servlet;
+package my.app.servlets.servlet;
 
 import java.io.IOException;
 
